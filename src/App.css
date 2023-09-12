@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bottle-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+}
+
+.bottle-card{
+  padding: 20px;
+  background-color: #f6f6f6f6;
+  border-radius: 10px;
+}
+
+
+.bottle-card img{
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+}
+
+
+button.cart-btn{
+  background-color: orangered;
+  color: white;
+}
